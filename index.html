@@ -1,0 +1,2391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--css style-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--Bootstrap css Offline-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Box icon-->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--font for logo-->
+  <link href="http://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+  <!--swiper css-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ 
+  <title>Confused Movies</title>
+
+</head>
+<body>
+
+  <!-- =========== Start Cusull && Nav bar ============ -->
+  <section class="home" id="home">
+     <!---------------------------nav--------------------->
+     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top nav-smooth">
+      <div class="container-fluid">
+          <a href="" class="navbar-brand" style=" margin-left: 1.2rem">
+              <img src="./img/logo/icon-logo.png" alt="logo here" width="40" >
+          <span style="font-weight: 500; font-size: 20px;  font-family: 'Gagalin'; "> Confused ? </span>  
+          </a>
+          
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  me-auto mb-2 mb-lg-0 " style="  margin-left: 2.5rem;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Movie
+              </a>
+               <!---------drop item------->
+              <ul class="dropdown-menu  " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#trind">Trend</a></li>
+                  <li><a class="dropdown-item" href="#action">Action</a></li>
+                  <li><a class="dropdown-item" href="#drama">Drama</a></li>
+                  <li><a class="dropdown-item" href="#horror">Horror</a></li>
+                  <li><a class="dropdown-item" href="#romance">Romance</a></li>
+                  
+              </ul>
+            </li>
+            
+                  <!-----------drop item-------->
+
+                  <li class="nav-item">
+                  <a href="#serice" class="nav-link text-white"> Serice </a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a href="#app" class="nav-link text-white"> App </a>
+                  </li>
+
+                  <li class="nav-item">
+                  <a href="#contact" class="nav-link text-white"> Conatct </a>
+                  </li>
+          </ul>
+
+          <!-- <form class="d-flex">
+              <input class="form-control me-2 item-input" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light item-btn" type="submit">
+                  <i class='bx bx-search'></i>
+              </button>
+            </form> -->
+        </div>
+
+      </div>
+     </nav>
+     <!---------------------------nav--------------------->
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-controls">
+
+      <ol class="carousel-indicators">
+
+        <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/pic-movie/dr.strange.jpg')"></li>
+        <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/pic-movie/Nobody.jpg')"></li>
+        <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/pic-movie/uncharted.jpg')"></li>
+        <li data-target="#carousel" data-slide-to="3" style="background-image:url('img/pic-movie/the-batman.jpg')"></li>
+        <li data-target="#carousel" data-slide-to="4" style="background-image:url('img/pic-movie/sonic.jpg')"></li>
+        <li data-target="#carousel" data-slide-to="5" style="background-image:url('img/pic-movie/MoonKhnight.jpg')"></li>
+        
+      </ol>
+     
+
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <img src="img/left-arrow.svg" alt="Prev"> 
+      </a>
+
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <img src="img/right-arrow.svg" alt="Next">
+      </a>
+
+    </div>
+
+    <div class="carousel-inner">
+
+
+      <div class="carousel-item Rose active" style="background-image:url('img/pic-movie/dr.strange.jpg')">
+        <div class="container">
+          <h2>Dr Strange</h2>
+          <p> 2022 ‧ Action/Adventure ‧ 2h 6m</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/movie/doctor-strange-in-the-multiverse-of-madness-2022/?ref=home-trends" target="_blank">
+            <button class="btnn-1"  >
+              
+               <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> 
+              
+            </button>
+           </a>
+          </div>
+         
+        </div>
+      </div>
+
+      <div class="carousel-item" style= "background-image:url('img/pic-movie/Nobody.jpg')">
+        <div class="container">
+          <h2>Nobody</h2>
+          <p>2021 ‧ Action/Thriller ‧ 1h 32m</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/movie/nobody-2021/" target="_blank">
+               <button class="btnn-1"> <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> </button>
+            </a>
+          </div>
+        </div>
+      </div> 
+
+      <div class="carousel-item" style="background-image:url('img/pic-movie/uncharted.jpg')">
+        <div class="container">
+          <h2>Uncharted</h2>
+          <p>2022 ‧ Adventure/Action ‧ 1h 56m</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/movie/uncharted-2022/" target="_blank">
+              <button class="btnn-1"> <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image:url('img/pic-movie/the-batman.jpg')">
+        <div class="container">
+          <h2>The Batman</h2>
+          <p>2022 ‧ Action/Adventure ‧ 2h 56m</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/movie/the-batman-2022/" target="_blank">
+              <button class="btnn-1"> <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image:url('img/pic-movie/sonic.jpg')">
+        <div class="container">
+          <h2>Sonic</h2>
+          <p>2022 ‧ Adventure/Comedy ‧ 2h 2m</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/movie/sonic-the-hedgehog-2-2022/" target="_blank">
+              <button class="btnn-1"> <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> </button>
+            </a>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="carousel-item" style="background-image:url('img/pic-movie/MoonKhnight.jpg')">
+        <div class="container">
+          <h2>Moon Knight</h2>
+          <p>2022 Action fiction</p>
+          <div class="bbtn">
+            <a href="https://w.egybest.services/series/moon-knight/" target="blank">
+              <button class="btnn-1"> <i class='bx bx-play-circle' style='color:#9c3030 '></i>  <span> Watch Now </span> </button>
+            </a>
+          </div>   
+      </div>
+
+
+
+      </div>
+
+
+    </div>
+
+    </div>
+  </section>
+  <!-- =========== End Cusull && Nav bar ================================== -->
+
+
+  <!-- =========== Start TRENDING  ============ -->
+  <section class="trinding" id="trind">
+    <div class="container">
+
+      <div class="row ">
+        <div class=" col-md-6 col-lg-6 " style="margin-top: 100px;">
+          <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;"> Trending Videos</span>  
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <section id="slider-container">
+
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+  
+                  <!--Slider 1-->
+                  <div class="swiper-slide">
+                      <!--Slider box-->
+                      <div class="slider-box">
+                        <!--img-->
+                        <div class="slider-img">
+                            <img src="./img/Trinding/New-Matrix-Resurrections-Poster-Calls-us-To-Return-to-the-Source (1).jpg" alt="pic">
+                        </div>
+  
+                        <!--details-->
+                        <div class="slider-details">
+                          <strong> The Matrix Resurrections</strong>
+  
+                          <div class="rating">
+                            
+                              <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                              <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                              <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                              <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                              &nbsp;
+                              <h6><span>IMDB</span> 5.6/10</h6>
+                              
+                          </div>
+  
+                            <!--Movie details-->
+                            <p>
+                            The Matrix Resurrections is a 2021 American science fiction action film produced,
+                            co-written, and directed by Lana Wachowski.
+                            It is the sequel to The Matrix Revolutions (2003) 
+                            and the fourth installment in the Matrix film franchise.
+                            </p>
+  
+                            <!--Movie cast-->
+                            <div class="movie-cast">
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/1.jpg" alt="cast">
+                              </a>
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/2.jpg" alt="cast">
+                              </a>
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/3.jpg" alt="cast">
+                              </a>
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/6.jpg" alt="cast">
+                              </a>
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/4.jpg" alt="cast">
+                              </a>
+                              <a href="#">
+                                <img src="./img/cast/matrix-cast/5.jpg" alt="cast">
+                              </a>
+                              <a href="#" class="more-cast">9+</a>
+                            </div>
+                            
+                            <!--Btns-->
+                            <div class="card-btn">
+                              <a href="https://www.youtube.com/watch?v=9ix7TUGVYIo" class="trailer-btn"> Watch Trailer</a>
+                              <a href="https://egy.egybest.bid/movie/the-matrix-resurrections-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                            </div>
+  
+                        </div>
+  
+  
+                      </div>
+  
+                  </div>
+  
+                  <!--Slider 2-->
+                  <div class="swiper-slide">
+                  <!--Slider box-->
+                  <div class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="./img/Trinding/venom-2-tom-hardy.jpg" alt="pic">
+                    </div>
+  
+                    <!--details-->
+                    <div class="slider-details">
+                      <strong> Venom: Let There Be Carnage </strong>
+  
+                      <div class="rating">
+                        
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i> &nbsp;
+                          <h6><span>IMDB</span> 5.6/10</h6>
+                          
+                      </div>
+  
+                        <!--Movie details-->
+                        <p>
+                          Venom: Let There Be Carnage is a 2021 American superhero film featuring the Marvel
+                           Comics character Venom, produced by Columbia Pictures in association with Marvel. 
+                           Distributed by Sony Pictures Releasing, it is the second film in Sony's Spider-Man.
+                           
+                        </p>
+  
+                        <!--Movie cast-->
+                        <div class="movie-cast">
+                          <a href="#">
+                            <img src="./img/cast/Venome-2/tom-hardy-lead-840.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Venome-2/images.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Venome-2/3.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Venome-2/4.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Venome-2/5.jpg" alt="cast">
+                          </a>
+                          <a href="#" class="more-cast">9+</a>
+                        </div>
+                        
+                        <!--Btns-->
+                        <div class="card-btn">
+                          <a href="https://www.youtube.com/watch?v=-FmWuCgJmxo" class="trailer-btn"> Watch Trailer</a>
+                          <a href="https://egy.egybest.bid/movie/venom-let-there-be-carnage-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                        </div>
+  
+                    </div>
+  
+  
+                  </div>
+  
+                  </div>
+  
+                  <!--Slider 3-->
+                  <div class="swiper-slide">
+                    <!--Slider box-->
+                    <div class="slider-box">
+                      <!--img-->
+                      <div class="slider-img">
+                          <img src="./img/Trinding/Mortal.jpg" alt="pic">
+                      </div>
+      
+                      <!--details-->
+                      <div class="slider-details">
+                        <strong> Mortal Kombat</strong>
+      
+                        <div class="rating">
+                          
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            &nbsp;
+                            <h6><span>IMDB</span> 6.1/10</h6>
+                            
+                        </div>
+      
+                          <!--Movie details-->
+                          <p>
+                            Mortal Kombat is a 2021 martial arts fantasy film based on the video 
+                            game franchise of the same name and a reboot of the Mortal Kombat film series
+                            The film stars Lewis Tan, Jessica McNamee, Josh Lawson, Tadanobu Asano, Mehcad Brooks, 
+                            Ludi Lin, Chin Han, Max Huang, Joe Taslim, and Hiroyuki Sanada. It is directed by Simon
+                             McQuoid (in his feature directorial debut), from a screenplay by Greg Russo 
+                            and Dave Callaham and a story by Russo and Oren Uziel
+                          </p>
+      
+                          <!--Movie cast-->
+                          <div class="movie-cast">
+                            <a href="#">
+                              <img src="./img/cast/Mortal-combart/1.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/Mortal-combart/2.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/Mortal-combart/3.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/Mortal-combart/4.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/Mortal-combart/5.jpg" alt="cast">
+                            </a>
+                            
+                            <a href="#" class="more-cast">9+</a>
+                          </div>
+                          
+                          <!--Btns-->
+                          <div class="card-btn">
+                            <a href="https://www.youtube.com/watch?v=NYH2sLid0Zc" class="trailer-btn"> Watch Trailer</a>
+                            <a href="https://egy.egybest.bid/movie/mortal-kombat-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                          </div>
+      
+                      </div>
+      
+      
+                    </div>
+      
+                  </div>
+
+                  <!--Slider 4-->
+                  <div class="swiper-slide ">
+                    <!--Slider box-->
+                    <div class="slider-box ">
+                      <!--img-->
+                      <div class="slider-img ">
+                          <img src="./img/Trinding/no-time-to-die-release-date.jpg" alt="pic">
+                      </div>
+      
+                      <!--details-->
+                      <div class="slider-details">
+                        <strong> No Time to Die</strong>
+      
+                        <div class="rating">
+                          
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            &nbsp;
+                            <h6><span>IMDB</span> 7.3/10</h6>
+                            
+                        </div>
+      
+                          <!--Movie details-->
+                          <p>
+                            No Time to Die is a 2021 spy film and the twenty-fifth in the James Bond 
+                            series produced by Eon Productions, starring Daniel Craig in his fifth and final portrayal of fictional 
+                            British MI6 agent, James Bond. It was directed by Cary Joji Fukunaga from a screenplay by Neal Purvis, 
+                            Robert Wade, Fukunaga and Phoebe Waller-Bridge. Léa Seydoux, Ben Whishaw, Naomie Harris, Jeffrey Wright,
+                             Christoph Waltz, Rory Kinnear and Ralph Fiennes reprise their roles from previous films, with Rami Malek,
+                              Lashana Lynch, Billy Magnussen,
+                             Ana de Armas, David Dencik and Dali Benssalah also starring
+                          </p>
+      
+                          <!--Movie cast-->
+                          <div class="movie-cast">
+                            <a href="#">
+                              <img src=".img/cast/noTimeToDe/1.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/noTimeToDe/2.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/noTimeToDe/3.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/noTimeToDe/4.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/noTimeToDe/5.jpg" alt="cast">
+                            </a>
+                            
+                            <a href="#" class="more-cast">9+</a>
+                          </div>
+                          
+                          <!--Btns-->
+                          <div class="card-btn">
+                            <a href="https://www.youtube.com/watch?v=BIhNsAtPbPI" class="trailer-btn"> Watch Trailer</a>
+                            <a href="https://egy.egybest.bid/movie/no-time-to-die-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                          </div>
+      
+                      </div>
+      
+      
+                    </div>
+      
+                  </div>
+
+                  <!--Slider 5-->
+                  <div class="swiper-slide">
+                    <!--Slider box-->
+                    <div class="slider-box">
+                      <!--img-->
+                      <div class="slider-img">
+                          <img src="./img/Trinding/Cruella-scaled.jpg" alt="pic">
+                      </div>
+      
+                      <!--details-->
+                      <div class="slider-details">
+                        <strong> Cruella</strong>
+      
+                        <div class="rating">
+                          
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            &nbsp;
+                            <h6><span>IMDB</span> 7.3/10</h6>
+                            
+                        </div>
+      
+                          <!--Movie details-->
+                          <p>
+                            Cruella is a 2021 American crime comedy film based on the character Cruella de 
+                            Vil from Dodie Smith's 1956 novel The Hundred and One Dalmatians.[10] The film was
+                             directed by Craig Gillespie with a 
+                            screenplay by Dana Fox and Tony McNamara, from a story by Aline Brosh McKenna,
+                             Kelly Marcel, and Steve Zissis
+                          </p>
+      
+                          <!--Movie cast-->
+                          <div class="movie-cast">
+                            <a href="#">
+                              <img src="./img/cast/curuela/1.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/curuela/2.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/curuela/3.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/curuela/4.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/curuela/5.jpg" alt="cast">
+                            </a>
+                            
+                            <a href="#" class="more-cast">9+</a>
+                          </div>
+                          
+                          <!--Btns-->
+                          <div class="card-btn">
+                            <a href="https://www.youtube.com/watch?v=gmRKv7n2If8" class="trailer-btn"> Watch Trailer</a>
+                            <a href="https://egy.egybest.bid/explore/?q=cruella" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                          </div>
+      
+                      </div>
+      
+      
+                    </div>
+      
+                  </div>
+
+                  <!--Slider 6-->
+                  <div class="swiper-slide">
+                  <!--Slider box-->
+                  <div class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="./img/Trinding/spider_man_no_way_home_0.jpg" alt="pic">
+                    </div>
+    
+                    <!--details-->
+                    <div class="slider-details">
+                      <strong> Spider-Man: No Way Home</strong>
+    
+                      <div class="rating">
+                        
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          &nbsp;
+                          <h6><span>IMDB</span> 8.3/10</h6>
+                          
+                      </div>
+    
+                        <!--Movie details-->
+                        <p>
+                          Spider-Man: No Way Home is a 2021 American superhero film based on the Marvel Comics character
+                           Spider-Man, co-produced by Columbia Pictures and Marvel Studios and distributed by Sony Pictures
+                            Releasing. It is the sequel to Spider-Man: Homecoming (2017) and Spider-Man: Far From Home (2019), 
+                          and the 27th film in the Marvel Cinematic Universe (MCU).
+                        </p>
+    
+                        <!--Movie cast-->
+                        <div class="movie-cast">
+                          <a href="#">
+                            <img src="./img/cast/SpiderManNoWay/1.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/SpiderManNoWay/2.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/SpiderManNoWay/3.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/SpiderManNoWay/4.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/SpiderManNoWay/5.jpg" alt="cast">
+                          </a>
+                        
+                          <a href="#" class="more-cast">9+</a>
+                        </div>
+                        
+                        <!--Btns-->
+                        <div class="card-btn">
+                          <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA" class="trailer-btn"> Watch Trailer</a>
+                          <a href="https://egy.egybest.bid/movie/spider-man-no-way-home-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                        </div>
+    
+                    </div>
+    
+    
+                  </div>
+    
+                  </div>
+
+                  <!--Slider 6-->
+                  <div class="swiper-slide">
+                  <!--Slider box-->
+                  <div class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="./img/Trinding/dune-button-2021-1628542173776.jpg" alt="pic">
+                    </div>
+    
+                    <!--details-->
+                    <div class="slider-details">
+                      <strong> Dunc</strong>
+    
+                      <div class="rating">
+                        
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          &nbsp;
+                          <h6><span>IMDB</span> 8.0/10</h6>
+                          
+                      </div>
+    
+                        <!--Movie details-->
+                        <p>
+                          Dune (titled onscreen as Dune: Part One) is a 2021 American epic science fiction film directed by Denis Villeneuve 
+                          from a screenplay by Villeneuve, Jon Spaihts, and Eric Roth. It is the first of a two-part
+                           adaptation of the 1965 novel by Frank Herbert, primarily covering the first half of the book.
+                        </p>
+    
+                        <!--Movie cast-->
+                        <div class="movie-cast">
+                          <a href="#">
+                            <img src="./img/cast/Dunc/1.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Dunc/2.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Dunc/3.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Dunc/4.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/Dunc/5.jpg" alt="cast">
+                          </a>
+                         
+                          <a href="#" class="more-cast">9+</a>
+                        </div>
+                        
+                        <!--Btns-->
+                        <div class="card-btn">
+                          <a href="https://www.youtube.com/watch?v=8g18jFHCLXk" class="trailer-btn"> Watch Trailer</a>
+                          <a href="https://egy.egybest.bid/movie/dune-2021/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                        </div>
+    
+                    </div>
+    
+    
+                  </div>
+    
+                  </div>
+
+                  <!--Slider 7-->
+                  <div class="swiper-slide">
+                  <!--Slider box-->
+                  <div class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="./img/Trinding/North-man.jpg" alt="pic">
+                    </div>
+    
+                    <!--details-->
+                    <div class="slider-details">
+                      <strong> The North man</strong>
+    
+                      <div class="rating">
+                        
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                          &nbsp;
+                          <h6><span>IMDB</span> 7.3/10</h6>
+                          
+                      </div>
+    
+                        <!--Movie details-->
+                        <p>
+                          The Northman is a 2022 American epic historical film directed by Robert Eggers, who co-wrote the 
+                          screenplay with Sjón. Based on the legend of Amleth, the film stars co-producer Alexander Skarsgård, 
+                          Nicole Kidman,
+                           Claes Bang, Anya Taylor-Joy, Ethan Hawke, Björk, and Willem Dafoe.
+                        </p>
+    
+                        <!--Movie cast-->
+                        <div class="movie-cast">
+                          <a href="#">
+                            <img src="./img/cast/north-man/1.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/north-man/2.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/north-man/3.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/north-man/4.jpg" alt="cast">
+                          </a>
+                          <a href="#">
+                            <img src="./img/cast/north-man/5.jpg" alt="cast">
+                          </a>
+                          
+                          <a href="#" class="more-cast">9+</a>
+                        </div>
+                        
+                        <!--Btns-->
+                        <div class="card-btn">
+                          <a href="https://www.youtube.com/watch?v=oMSdFM12hOw" class="trailer-btn"> Watch Trailer</a>
+                          <a href="https://egy.egybest.bid/movie/the-northman-2022/?ref=home-trends" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                        </div>
+    
+                    </div>
+    
+    
+                  </div>
+    
+                  </div>
+
+                  <!--Slider 8-->
+                  <div class="swiper-slide">
+                    <!--Slider box-->
+                    <div class="slider-box">
+                      <!--img-->
+                      <div class="slider-img">
+                          <img src="./img/Trinding/morblius.jpg" alt="pic">
+                      </div>
+      
+                      <!--details-->
+                      <div class="slider-details">
+                        <strong> Morbius</strong>
+      
+                        <div class="rating">
+                          
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            <i class='bx bxs-star' style='color:#e8ff00'  ></i>
+                            &nbsp;
+                            <h6><span>IMDB</span> 5.1/10</h6>
+                            
+                        </div>
+      
+                          <!--Movie details-->
+                          <p>
+                            Morbius is a 2022 American superhero film based on the Marvel Comics character of the same name, 
+                            produced by Columbia Pictures in association with Marvel. Distributed by Sony Pictures Releasing,
+                             it is the third film in Sony's Spider-Man Universe (SSU). 
+                             Directed by Daniel Espinosa and written by Matt Sazama and Burk Sharpless, it stars Jared Leto as Dr. Michael Morbius, 
+                            alongside Matt Smith, Adria Arjona, Jared Harris, Al Madrigal, and Tyrese Gibson.
+                          </p>
+      
+                          <!--Movie cast-->
+                          <div class="movie-cast">
+                            <a href="#">
+                              <img src="./img/cast/morbius/1.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/morbius/2.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/morbius/3.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/morbius/4.jpg" alt="cast">
+                            </a>
+                            <a href="#">
+                              <img src="./img/cast/morbius/5.jpg" alt="cast">
+                            </a>
+                            
+                            <a href="#" class="more-cast">9+</a>
+                          </div>
+                          
+                          <!--Btns-->
+                          <div class="card-btn">
+                            <a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY" class="trailer-btn"> Watch Trailer</a>
+                            <a href="https://egy.egybest.bid/movie/morbius-2022/" class="paly-btn"> <i class='bx bx-play' style='color:#cccec8'></i> Watch Now </a>
+                          </div>
+      
+                      </div>
+      
+      
+                    </div>
+      
+                  </div>
+  
+                  <section id="slider-container">
+
+       
+
+        </section>
+
+            
+              </div>
+  
+              <div class="swiper-pagination"></div>
+          </div>
+  
+        </section>
+  
+      </div>
+
+    </div>        
+    
+    
+  </section>
+  <!-- =========== End TRENDING  ========================================== -->
+
+
+  <!-- =========== Start Action  ============ -->
+  <section class="Action-movie" id="action">
+    <div class="container">
+      <div class="row ">
+        <div class=" col-md-6 col-lg-6 mb-5 " style="margin-top: 100px;">
+          <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;"> Action Movies</span>  
+        </div>
+      </div>
+
+      <div class="row mt-5">
+             <!--Swiper-->
+             <div class="swiper__cotainer text-center justify-content-center">
+
+              <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+               
+                  <!--Slide 1-->
+                  <div class="swiper-slide">
+                      
+                                  
+                    <div class="cardd">
+                      
+                      <img src="./img/img-action/960698f2-151d-4765-9f12-d38ef89df15a.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Tent</h2>
+                          </div>
+                          <p> 
+                            Tenet is a 2020 science fiction spy film directed, written and co-produced (with his wife Emma Thomas)
+                             by Christopher Nolan. A co-production between the United Kingdom and the United States, it stars John David Washington, 
+                             Robert Pattinson, Elizabeth Debicki, Dimple Kapadia,
+                             Michael Caine, and Kenneth Branagh.
+                             <a href="https://zero.egybest.guru/movie/tenet-2020/" target="_blank"> <button>Watch now</button> </a>
+                             
+                          </p>
+                      </div>
+                    </div>
+  
+
+                  </div>
+
+                  <!--Slide 2-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/Bloodshot_-_official_film_poster.jpeg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Blood Shot</h2>
+                            </div>
+                            <p> 
+                              Bloodshot is a 2020 American superhero film based on the Valiant Comics character of the same name. It is intended to be the 
+                              first installment in a series of films set within a Valiant Comics shared cinematic universe.
+                              <a href="https://zero.egybest.guru/movie/bloodshot-2020/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 3-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/extrsction.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Extraction</h2>
+                            </div>
+                            <p> 
+                              Extraction is a 2020 American action thriller film directed by Sam Hargrave (in his feature directorial debut)
+                               and written by Joe Russo, based on the graphic novel Ciudad by Ande Parks, 
+                              Joe Russo, Anthony Russo, Fernando León González, and Eric Skillman.  
+                              <a href="https://zero.egybest.guru/movie/extraction-2020/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 4-->
+                  <div class="swiper-slide">
+                    
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/Project_Power.jpeg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Project Power </h2>
+                            </div>
+                            <p> 
+                              roject Power is a 2020 American science fiction action film
+                               directed by Henry Joost and Ariel Schulman, produced by Eric Newman and Bryan Unkeless, and written by Mattson Tomlin. 
+                              <a href="https://zero.egybest.guru/movie/project-power-2020/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 5-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/sonic.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Sonic</h2>
+                            </div>
+                            <p> 
+                              Sonic the Hedgehog[b] is a 2020 action-adventure comedy film based on the video game series 
+                              published by Sega. Directed by Jeff Fowler (in his feature directorial debut) 
+                              and written by Pat Casey and Josh Miller.
+                              <a href="https://zero.egybest.guru/movie/sonic-the-hedgehog-2020/" target="_blank"><button>Watch now</button></a>
+                                
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+
+                  <!--Slide 6-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/Aquaman.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Aquaman</h2>
+                            </div>
+                            <p> 
+                              Aquaman is a 2018 American superhero film based on the DC Comics character of the same name Produced by DC Entertainment and Peter Safran Productions, 
+                              and distributed by Warner Bros 
+                              Pictures, it is the sixth film in the DC Extended Universe (DCEU). 
+                              <a href="https://zero.egybest.guru/movie/aquaman-2018/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 7-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/49192829_10101658517075357_4372534237862035456_o.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Avatar</h2>
+                            </div>
+                            <p> 
+                              Avatar (also marketed as James Cameron's Avatar) is a 2009 American epic science fiction film directed, written, 
+                              produced, and co-edited by James Cameron and starring Sam Worthington, Zoe Saldana .
+                              <a href="https://zero.egybest.guru/movie/avatar-2009/"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 8-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/wrath_of_man.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Wrath of Man</h2>
+                            </div>
+                            <p> 
+                              Wrath of Man is a 2021 heist action thriller film directed by Guy Ritchie, from a script he co-wrote with Ivan Atkinson and Marn Davies,
+                               and is loosely based on the 2004 French film Cash Truck by Nicolas Boukhrief.
+                              <a href="https://zero.egybest.guru/movie/wrath-of-man-2021/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 9-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-action/Impossible-Fallout.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Mission: Impossible - Fallout</h2>
+                            </div>
+                            <p> 
+                              Mission: Impossible – Fallout is a 2018 American action spy film written, produced, and directed by Christopher McQuarrie
+                              It is the sixth installment in the Mission: Impossible film series, 
+                              and the second film to be directed by McQuarrie following the 2015 film Rogue Nation                           
+                              <a href="https://zero.egybest.guru/movie/mission-impossible-fallout-2018/?ref=search-p1" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                
+                
+              </div>
+          
+              <div class="swiper__pagination__moving">
+              <div class="swiper-pagination"></div>
+              </div>
+          
+              </div>
+          
+          </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- =========== End Action  ========================================== -->
+
+  <!-- =========== Start Drama ============ -->
+  <section class="Drama-movie" id="drama">
+    <div class="container">
+      <div class="row ">
+        <div class=" col-md-6 col-lg-6 mb-5 " style="margin-top: 100px;">
+          <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;"> Drama Movies</span>  
+        </div>
+      </div>
+
+      <div class="row mt-5">
+             <!--Swiper-->
+             <div class="swiper__cotainer text-center justify-content-center">
+
+              <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+               
+                  <!--Slide 1-->
+                  <div class="swiper-slide">
+                      
+                                  
+                    <div class="cardd">
+                      
+                      <img src="./img/img-drama/the-last-duel.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>The LAST Duel</h2>
+                          </div>
+                          <p> 
+                            The Last Duel is a 2021 historical action drama film[6] directed by Ridley Scott from a screenplay 
+                            by Nicole Holofcener, Ben Affleck, and Matt Damon, based on the 2004 book 
+                            The Last Duel: A True Story of Trial by Combat in Medieval France by Eric Jager.
+                             <a href="https://zero.egybest.guru/movie/the-last-duel-2021/" target="_blank"> <button>Watch now</button> </a>
+                             
+                          </p>
+                      </div>
+                    </div>
+  
+
+                  </div>
+
+                  <!--Slide 2-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/Dangerous-Methods.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Dangerous Methods</h2>
+                            </div>
+                            <p> 
+                              A Dangerous Method is a 2011 historical film directed by David Cronenberg and starring Keira Knightley,
+                               Viggo Mortensen, Michael Fassbender, Sarah Gadon, 
+                              and Vincent Cassel. 
+                              <a href="https://zero.egybest.guru/movie/dangerous-methods-2022/?ref=movies-p1" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 3-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/Little_Women.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2> Little Women</h2>
+                            </div>
+                            <p> 
+                              Little Women is a 2019 American coming-of-age period drama 
+                              film written and directed by Greta Gerwig. It is the seventh film adaptation of 
+                              the 1868 novel of the same name by Louisa May Alcott.
+                              <a href="https://zero.egybest.guru/movie/little-women-2019/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 4-->
+                  <div class="swiper-slide">
+                    
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/the-irish-man.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>The Irishman</h2>
+                            </div>
+                            <p> 
+                              The Irishman (titled onscreen as I Heard You Paint Houses) is a 2019 American epic crime drama film directed and produced by Martin Scorsese and written by Steven Zaillian, 
+                              based on the 2004 nonfiction book I Heard You Paint Houses by Charles Brandt.
+                              <a href="https://zero.egybest.guru/movie/the-irishman-2019/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 5-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/Galawki.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Galwakdi</h2>
+                            </div>
+                            <p> 
+                              Galwakdi is a Punjabi Movie that is full of Comedy and Romance with Drama and
+                               Emotionalness in time of a new start of The New Year Weekend for 2022, 
+                              Starring: Wamiqa Gabbi, Tarsem Jassar, and B.N. Sharma..
+                              <a href="https://zero.egybest.guru/movie/galwakdi-2022/?ref=movies-p1/" target="_blank"><button>Watch now</button></a>
+                                
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+
+                  <!--Slide 6-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/lady-bird.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Lady Bird</h2>
+                            </div>
+                            <p> 
+                              Lady Bird is a 2017 American coming-of-age comedy-drama film written and 
+                              directed by Greta Gerwig in her solo directorial debut. Set in Sacramento,
+                               California from fall 2002 to fall 2003 
+                              <a href="https://zero.egybest.guru/movie/lady-bird-2017/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 7-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/dunkirk.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Dunkirk </h2>
+                            </div>
+                            <p> 
+                              Dunkirk is a 2017 war film written, directed, and produced by Christopher Nolan
+                               that depicts the Dunkirk evacuation of World War
+                               II through the perspectives of the land, sea, and air. It is produced by Syncopy Inc.
+                              <a href="https://zero.egybest.guru/movie/dunkirk-2017/"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 8-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/gravity.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Gravity</h2>
+                            </div>
+                            <p> 
+                              Dr. Ryan Stone (Sandra Bullock) is a medical engineer on her first shuttle mission
+                              Her commander is veteran 
+                              astronaut Matt Kowalsky (George Clooney), helming his last flight before retirement.
+                              <a href="https://zero.egybest.guru/movie/gravity-2013/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 9-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/img-drama/taxi-driver.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Taxi Driver 1976</h2>
+                            </div>
+                            <p> 
+                              Taxi Driver is a 1976 American film directed by Martin Scorsese, written by Paul Schrader, 
+                              and starring Robert De Niro, Jodie Foster, Cybill Shepherd, Harvey Keitel, Peter Boyle, Leonard
+                               Harris, and Albert Brooks. 
+                                                    
+                              <a href="https://zero.egybest.guru/movie/taxi-driver-1976/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                
+                
+              </div>
+          
+              <div class="swiper__pagination__moving">
+              <div class="swiper-pagination"></div>
+              </div>
+          
+              </div>
+          
+          </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- =========== End Drama  ========================================== -->
+
+  <!-- =========== Start Horor ============ -->
+  <section class="Horor-movie" id="horror">
+    <div class="container">
+      <div class="row ">
+        <div class=" col-md-6 col-lg-6 mb-5 " style="margin-top: 100px;">
+          <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;"> Horror Movies</span>  
+        </div>
+      </div>
+
+      <div class="row mt-5">
+             <!--Swiper-->
+             <div class="swiper__cotainer text-center justify-content-center">
+
+              <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+               
+                  <!--Slide 1-->
+                  <div class="swiper-slide">
+                      
+                                  
+                    <div class="cardd">
+                      
+                      <img src="./img/horror-movie/halloween-kills.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Halloween Kills</h2>
+                          </div>
+                          <p> 
+                            Halloween Kills is a 2021 American slasher film directed by David Gordon Green and written by Green, 
+                            Danny McBride, and Scott Teems 
+                            The film is a sequel to 2018's Halloween and the twelfth installment in the Halloween franchise.
+                             <a href="https://zero.egybest.guru/movie/halloween-kills-2021/" target="_blank"> <button>Watch now</button> </a>
+                             
+                          </p>
+                      </div>
+                    </div>
+  
+
+                  </div>
+
+                  <!--Slide 2-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/A_Quiet_Place_Part_II.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>A Quiet Place</h2>
+                            </div>
+                            <p> 
+                              A Quiet Place is a 2018 American post-apocalyptic horror film directed by John Krasinski 
+                              and written by Bryan Woods, 
+                              Scott Beck and Krasinski, from a story conceived by Woods and Beck.
+                              <a href="https://en.wikipedia.org/wiki/A_Quiet_Place" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 3-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/the-conjuring.jfif" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2> The Conjuring </h2>
+                            </div>
+                            <p> 
+                              The Conjuring: The Devil Made Me Do It (also known as The Conjuring 3) 
+                              is a 2021 American supernatural horror film directed by Michael Chaves, 
+                              with a screenplay by David Leslie Johnson-McGoldrick. 
+                             
+                              <a href="https://zero.egybest.guru/movie/the-conjuring-the-devil-made-me-do-it-2021/?ref=search-p1" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 4-->
+                  <div class="swiper-slide">
+                    
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/last-night-in.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Last Night in Soho</h2>
+                            </div>
+                            <p> 
+                              Last Night in Soho is a 2021 British psychological horror film directed by Edgar Wright and co-written by Wright and Krysty Wilson-Cairns
+                              It stars Thomasin McKenzie, Anya Taylor-Joy, 
+                              Matt Smith, Michael Ajao, Terence Stamp and Diana Rigg.
+                              <a href="https://zero.egybest.guru/movie/last-night-in-soho-2021/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 5-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/Hereditary.png" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Hereditary</h2>
+                            </div>
+                            <p> 
+                              Hereditary is a 2018 American supernatural psychological horror film written and directed by Ari Aster 
+                              in his directorial debut. It stars Toni Collette, Alex Wolff, Milly Shapiro, and Gabriel Byrne as the
+                               members of a family haunted by a
+                               mysterious presence after the death of their secretive grandmother.
+                              <a href="https://zero.egybest.guru/movie/hereditary-2018/" target="_blank"><button>Watch now</button></a>
+                                
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+
+                  <!--Slide 6-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/antlers.jfif" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Antlers</h2>
+                            </div>
+                            <p> 
+                              ntlers is a 2021 supernatural horror film directed by Scott Cooper, 
+                              and stars Keri Russell, Jesse Plemons, Jeremy T. Thomas, 
+                              Graham Greene, Scott Haze, Rory Cochrane, and Amy Madigan. 
+                              <a href="https://zero.egybest.guru/movie/antlers-2021/" target="_blank"> <button>Watch now</button></a>
+                                 
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 7-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/us.jfif" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>Us</h2>
+                            </div>
+                            <p> 
+                              Us is a 2019 American horror film written and directed by Jordan Peele,
+                               starring Lupita Nyong'o, Winston Duke, Elisabeth Moss, and Tim Heidecker. 
+                              <a href="https://zero.egybest.guru/movie/us-2019/"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 8-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/insidious.jpeg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>insidious</h2>
+                            </div>
+                            <p> 
+                              Insidious is a 2010 American supernatural horror film directed by James Wan, written by Leigh Whannell, 
+                              and starring Patrick Wilson, Rose Byrne, and Barbara Hershey. 
+                              <a href="https://zero.egybest.guru/movie/insidious-2010/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                  <!--Slide 9-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/the-thing.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>The Thing</h2>
+                            </div>
+                            <p> 
+                              The Thing is a 2011 science fiction horror film directed by Matthijs van Heijningen Jr.
+                               written by Eric Heisserer, and starring Mary Elizabeth Winstead, Joel Edgerton, Ulrich Thomsen, 
+                              Adewale Akinnuoye-Agbaje, and Eric Christian Olsen.
+                                                    
+                              <a href="https://zero.egybest.guru/movie/the-thing-2011/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                   <!--Slide 10-->
+                  <div class="swiper-slide">
+                      
+                                  
+                      <div class="cardd">
+                      
+                        <img src="./img/horror-movie/The_Silence_of_the_Lambs_poster.jpg" alt="">
+                  
+                        <div class="con-text">
+                            <div class="mytext">
+                              <h2>The Silence of the Lambs</h2>
+                            </div>
+                            <p> 
+                              The Silence of the Lambs is a 1991 American psychological horror film directed by Jonathan Demme
+                               and written by Ted Tally, adapted from Thomas Harris's 1988 novel. It stars Jodie Foster as Clarice Starling, 
+                              a young FBI trainee who is hunting a serial killer, "Buffalo Bill" (Ted Levine)
+                                                    
+                              <a href="https://zero.egybest.guru/movie/the-silence-of-the-lambs-1991/" target="_blank"><button>Watch now</button></a>
+                                  
+                            </p>
+                        </div>
+                      </div>
+    
+
+                  </div>
+
+                
+                
+              </div>
+          
+              <div class="swiper__pagination__moving">
+              <div class="swiper-pagination"></div>
+              </div>
+          
+              </div>
+          
+          </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- =========== End Horor ========================================== -->
+
+  <!-- =========== Start Romance ============ -->
+  <section class="romance-movie" id="romance">
+  <div class="container">
+    <div class="row ">
+      <div class=" col-md-6 col-lg-6 mb-5 " style="margin-top: 100px;">
+        <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;">Romance Movies</span>  
+      </div>
+    </div>
+
+    <div class="row mt-5">
+            <!--Swiper-->
+            <div class="swiper__cotainer text-center justify-content-center">
+
+            <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              
+                <!--Slide 1-->
+                <div class="swiper-slide">
+                    
+                                
+                  <div class="cardd">
+                    
+                    <img src="./img/romance-movies/let_it_snow.jpg" alt="">
+              
+                    <div class="con-text">
+                        <div class="mytext">
+                          <h2>Let It Snow</h2>
+                        </div>
+                        <p> 
+                          Let It Snow is a 2019 American Christmas romantic comedy film directed by Luke Snellin from a screenplay 
+                          by Kay Cannon, Victoria Strouse and Laura Solon,
+                            based on the young adult novel of the same name by Maureen Johnson, John Green, and Lauren Myracle
+                            <a href="https://zero.egybest.guru/movie/let-it-snow-2019/" target="_blank"> <button>Watch now</button> </a>
+                            
+                        </p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!--Slide 2-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/a_star_is_born.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>A Star Is Born</h2>
+                          </div>
+                          <p> 
+                            A Star Is Born is a 2018 American musical romantic drama film produced and directed by Bradley Cooper 
+                            (in his directorial debut) with a screenplay by Cooper, Eric Roth and Will Fetters. 
+                            <a href="https://zero.egybest.guru/movie/a-star-is-born-2018/" target="_blank"><button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 3-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/lala_land.jfif" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2> La La Land </h2>
+                          </div>
+                          <p> 
+                            La La Land is a 2016 American romantic musical comedy-drama film written 
+                            and directed by Damien Chazelle. It stars Ryan Gosling and Emma Stone as a struggling jazz pianist and an aspiring actress, respectively, 
+                            who meet and fall in love while pursuing their dreams in Los Angeles.
+                            
+                            <a href="https://zero.egybest.guru/movie/la-la-land-2016/" target="_blank"> <button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 4-->
+                <div class="swiper-slide">
+                  
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/all_the_bright_places.jpeg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>All the Bright Places</h2>
+                          </div>
+                          <p> 
+                            All the Bright Places is a 2020 American teen romantic drama film, 
+                            directed by Brett Haley, from a screenplay by Jennifer Niven and Liz Hannah, 
+                            adapted from the novel of the same name by Niven.
+
+                            <a href="https://zero.egybest.guru/movie/all-the-bright-places-2020/" target="_blank"> <button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 5-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/Holidate_film_poster.png" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Holidate</h2>
+                          </div>
+                          <p> 
+                            Holidate is a 2020 American romantic comedy film directed by John Whitesell, from a screenplay by Tiffany Paulsen. It stars Emma Roberts, Luke Bracey, Jake Manley,
+                              Jessica Capshaw, Andrew Bachelor, Frances Fisher, Manish Dayal and Kristin Chenoweth.
+                            <a href="https://zero.egybest.guru/movie/holidate-2020/" target="_blank"><button>Watch now</button></a>
+                              
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+
+                <!--Slide 6-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/Five_Feet_Apart.png" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Five Feet Apart</h2>
+                          </div>
+                          <p> 
+                            Five Feet Apart is a 2019 American romantic drama film and directed by Justin Baldoni 
+                            (in his directorial debut) and written by Mikki Daughtry and Tobias Iaconis.
+                            <a href="https://zero.egybest.guru/movie/five-feet-apart-2019/" target="_blank"> <button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 7-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/about_time.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>About Time</h2>
+                          </div>
+                          <p> 
+                            About Time is a 2013 British science fantasy comedy-drama film written and directed by Richard Curtis
+                              and starring Domhnall Gleeson, Rachel McAdams, and Bill Nighy.
+                            <a href="https://zero.egybest.guru/movie/about-time-2013/"><button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 8-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/Before_Sunrise.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Before Sunrise</h2>
+                          </div>
+                          <p> 
+                            Before Sunrise is a 1995 romantic drama film directed by Richard Linklater 
+                            and co-written by Linklater and Kim Krizan. The first installment in the
+                              Before trilogy, it follows Jesse (Ethan Hawke) and Céline (Julie Delpy) as they meet on
+                              a Eurail train and disembark in Vienna to spend the night together. 
+                            <a href="https://zero.egybest.guru/movie/before-sunrise-1995/" target="_blank"><button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                <!--Slide 9-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/Last-Christmas.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>Last Christmas</h2>
+                          </div>
+                          <p> 
+                            Last Christmas is a 2019 romantic comedy film directed by Paul Feig and written by Bryony Kimmings and 
+                            Emma Thompson, who co-wrote the story with her husband, Greg Wise. 
+                                                  
+                            <a href="https://zero.egybest.guru/movie/last-christmas-2019/" target="_blank"><button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+                  <!--Slide 10-->
+                <div class="swiper-slide">
+                    
+                                
+                    <div class="cardd">
+                    
+                      <img src="./img/romance-movies/The_Holiday.jpg" alt="">
+                
+                      <div class="con-text">
+                          <div class="mytext">
+                            <h2>The Holiday</h2>
+                          </div>
+                          <p> 
+                            The Holiday is a 2006 romantic comedy film written, produced and directed 
+                            by Nancy Meyers. Co-produced by Bruce A. Block, it was filmed in both California and England,
+                              and stars Kate Winslet and Cameron Diaz
+                              as Iris and Amanda, two lovelorn women from opposite sides of the Atlantic Ocean, 
+                                                  
+                            <a href="https://zero.egybest.guru/movie/the-holiday-2006/" target="_blank"><button>Watch now</button></a>
+                                
+                          </p>
+                      </div>
+                    </div>
+  
+
+                </div>
+
+              
+              
+            </div>
+        
+            <div class="swiper__pagination__moving">
+            <div class="swiper-pagination"></div>
+            </div>
+        
+            </div>
+        
+        </div>
+    </div>
+
+  </div>
+  </section>
+  <!-- =========== End Romance ========================================== -->
+
+
+  <!-- =========== Start Serice box ============ -->
+  <section id="serice" class="Serice" id="serice">
+
+    <div class="container">
+      <div class="row ">
+        <div class=" col-md-6 col-lg-6 mb-5 " style="margin-top: 100px;">
+          <span style="border: 2.5px solid white; border-radius: 10px; padding: 10px; color: white;">Serice Tv Show</span>  
+        </div>
+      </div>
+
+      <div class="row">
+
+
+          <!--swiper-->    
+          <div class="movie-list-container">
+              <div class="movie-list-wrapper">
+                  <div class="movie-list">
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/westworld.jfif" alt="">
+                          <span class="movie-list-item-title">West Word</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  >  </i>
+                              <i class='bx bxs-star' style='color:#ffff00'  >  </i>
+                              <i class='bx bxs-star' style='color:#ffff00'  >  </i>
+                              <i class='bx bxs-star' style='color:#ffff00'  >  </i>
+                              <i class='bx bxs-star' style='color:#ffff00'  >  </i>
+                          </p>
+
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">
+                              120min <i class='bx bx-time' undefined ></i>
+                          </p>
+
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">
+                              22K <i class='bx bx-trending-up'> </i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">
+                              FULLHD
+                          </p>
+
+                          <button class="movie-list-item-button">Watch</button>
+                          <button class="movie-list-item-button" style="left: 66%;">More</button>
+                      </div>
+                  
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/Squid Game.jfif" alt="">
+                          <span class="movie-list-item-title">Squid Game</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+                          <a href="https://zero.egybest.guru/series/squid-game/?ref=search-p1" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>       
+                      
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/Monster Indise.jpg" alt="">
+                          <span class="movie-list-item-title">Monster Inside</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="https://zero.egybest.guru/series/monsters-inside-the-24-faces-of-billy-milligan/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>  
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/la_casa_de_papel.jpg" alt="">
+                          <span class="movie-list-item-title">La Casa de Papel</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="https://zero.egybest.guru/series/la-casa-de-papel-2017/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/the_vow.jpg" alt="">
+                          <span class="movie-list-item-title">The Vow</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href=" https://zero.egybest.guru/movie/the-vow-2012/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                         
+                          
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/little_voice.jpg" alt="">
+                          <span class="movie-list-item-title">Liitle Voice</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="https://zero.egybest.guru/series/little-voice/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/after_life.jpg" alt="">
+                          <span class="movie-list-item-title">After Life</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="https://zero.egybest.guru/series/after-life/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div> 
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/high_town.jfif" alt="">
+                          <span class="movie-list-item-title">High Town</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="#/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/sparticous.jfif" alt="">
+                          <span class="movie-list-item-title">Spartacus</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+                          <a href="https://zero.egybest.guru/movie/spartacus-1960/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+              
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/stateless.jpg" alt="">
+                          <span class="movie-list-item-title">stateless</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+
+                          <a href="https://zero.egybest.guru/series/stateless/" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+
+                      <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="img/img-series-tv/high_score.jpg" alt="">
+                          <span class="movie-list-item-title">Hight Score</span>
+                          <p class="movie-list-item-desc" style="top: 22%; left: 21%; font-weight: 500; font-size: 23px;">
+                              Rate:&nbsp
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                              <i class='bx bxs-star' style='color:#ffff00'  ></i>
+                          </p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 15%; font-weight: 700;">120min<i class='bx bx-time' undefined ></i></p>
+                          <p class="movie-list-item-desc" style="top: 40%; left: 61%; font-weight: 700;">22K<i class='bx bx-trending-up'></i></p>
+                          <p class="movie-list-item-desc" style="top: 58%; left: 37%; font-weight: 700;">FULLHD</p>
+                          <a href="#" target="_blank">
+                            <button class="movie-list-item-button">Watch</button>
+                          </a>
+                      </div>
+              
+                  
+                  </div>
+                  <i class="fas fa-chevron-right arrow"></i>
+                  <i class="fas fa-chevron-left arrow-left "></i>
+              
+              </div>
+          </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- =========== End Serice box ============ -->
+
+  <!--Start App-->
+  <section class="App" id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <h1 class="app-title">Confused Movie App</h1>
+          <h3 class="app-description">use Our App Now</h3>
+          <p class="app-explian">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+             Numquam esse rem fuga sit a architecto nemo ullam ab odio
+             consequuntur est eligendi atque beatae cupiditate alias earum minima recusandae eius?
+          </p>
+
+          <div class="row">
+
+            <div class="col-md-6 col-lg-6">
+              <a href="#">
+                <div class="bbtnApp">
+                    <button class="btnn-1 bbtn-store">  
+                        <span>  
+                            <i class='bx bxl-play-store'></i>  Google Store 
+                        </span> 
+                    </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-6 col-lg-6 ">
+
+              <a href="#">
+               <div class="bbtnApp">
+                   <button class="btnn-1  bbtn-store2">  
+                       <span>  
+                           <i class='bx bxl-apple'></i>  Apple Store 
+                       </span> 
+                   </button>
+               </div>
+              </a>
+
+           </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-6 ">
+          <div class="app__img">
+             <img src="./img/img-app/our-app.png" alt="pic_app" class=" img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End App--------------------------------------------------------------->
+
+  <!--Start Contact Us-->
+  <section class="contacts" id="contact">
+    <div class="container contact__data">
+        <div class="row item-contact">
+            <div class="col-md-7">
+                <p class="contact__description">let's talk</p>
+                <h1 class="contact__main">contact us</h1>
+                <p class="contact__explain">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+            </div>
+
+            <div class="col-md-5 justify-content-center text-left  ">
+                <!-- <button type="button" class="btn btn__contact ">
+                    Contact Us Now
+                </button> -->
+                <i class=' bbx-down bx bx-chevrons-down bx-fade-up'  style="color:#c29659 ; font-size: 130px; "></i>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 ">
+                <form class="row g-3">
+                    <div class="col-md-6">
+
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control  item-input-contact" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control  item-input-contact " id="inputPassword4">
+                    </div>
+
+                    <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control  item-input-contact" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+
+                    <div class="col-md-6">
+                    <label for="inputCity" class="form-label ">City</label>
+                    <input type="text" class="form-control  item-input-contact" id="inputCity">
+                    </div>
+
+                    <div class="col-md-4">
+
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>German</option>
+                        <option>Greek</option>
+                        <option>Italia</option>
+                        <option>Romania</option>
+                        <option>Turkey</option>
+                        <option>Lebanon</option>
+                        <option>Syria</option>
+                        <option>Sudi Arabia</option>
+                        <option>Jurdan</option>
+                        <option>Egypt</option>
+                        <option>Emarat</option>
+                        <option>Fransh</option>
+                        <option>Swedish</option>
+                        <option>Aljeria</option>
+                        <option>Moroco</option>
+                    </select>
+
+                    </div>
+
+                    <div class="col-12">
+                        <label for="validationTextarea" class="form-label">Textarea</label>
+                        <textarea class="form-control is-invalid  item-textarea" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                        
+                    </div>
+                    
+                    <div class="col-12">
+                    <button type="submit" class="btn btn-danger">Send</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--End Contact Us------------------------------------------------------->
+
+  <!--Start Footer-->
+  <section id="Footer">
+    <div class="container-fluid item-footer-bg">
+      <div class="row text-center">
+
+          <div class="col-sm">
+              <img src="./img/logo/icon-logo.png" alt="logo" class="img-fluid w-50" style="margin-left: 42px">
+              <h5 style="color: white; font-family: 'Gagalin';" class="mt-4">Confused Movies</h5>
+              <p style="color: rgb(161, 157, 157);">512 N Beaudry Ave,Lose Angeloes California,US 90201</p>
+             
+          </div>
+
+          <div class="col-sm ">
+              <ul class="footer__link__list ">
+                  <li class="footer__head" > Menu </li>
+                  <li><a href="#" class="footer__link">Home</a></li>
+                  <li><a href="#" class="footer__link">Movie</a></li>
+                  <li><a href="#" class="footer__link">Serice</a></li>
+                  <li><a href="#" class="footer__link">App</a></li>
+                  <li><a href="#" class="footer__link">Contatc</a></li>
+              </ul>
+          
+          </div>
+
+          <div class="col-sm ">
+              
+              <p style="color: white; font-weight: 700;" >Conatct Us</p>
+              <p style="color: #4d4d4d;">+1 714 686 1122</p>
+              <p style="color: #4d4d4d; ">Confused.com</p>
+              <p style="color: #4d4d4d; ">Confused@gmail.com</p>
+
+          </div>
+          
+          <div class="col-sm">
+              <p class="footer__logo  text-center"> Soiacl Media </a>
+              <div class="social__logo text-center">
+                  <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                  <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                  <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+              </div>
+          </div>
+          <p class="text-center mt-3" style="color:white;">&copy;2022 Tarif Waez . All rigths reserved.</p>
+        
+      </div>
+    
+    </div>
+  </section>
+  <!--End Footer----------------------------------------------------------->
+
+
+   <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop " id="scroll-top" style="text-decoration:none;">
+      <i class='bx bx-movie-play bx-tada scrolltop__icon' style='color:#702020; font-size: 40px;'  ></i>
+    </a>
+   <!--========================End Footer==============-->
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--Bootstrap js offline-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- swiper js-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--jquery js-->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <!-- Normal Function javascript-->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
